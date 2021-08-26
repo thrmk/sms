@@ -38,7 +38,7 @@ def send_sms():
     """ A POST endpoint that sends an SMS. """
 
     # Extract the form values:
-    to_number = request.form['to_number']
+    to_number = "+91 8074345685" #request.form['to_number']
     message = request.form['message']
 
     # Send the SMS message:
